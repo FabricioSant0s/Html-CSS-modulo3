@@ -20,6 +20,36 @@
 body {
     height: 100vh;
 }
+a {
+    text-decoration: none;
+}
+
+header {
+    font-family: var(--fonte1);
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 90px;
+    font-weight: bolder;
+    
+}
+
+header > p {
+    padding-bottom: 20px;
+    text-decoration: none;
+}
 
 
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 35px;
+    padding-top: 20px;
+}
 

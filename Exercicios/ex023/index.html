@@ -12,11 +12,24 @@
 
         table {
             width: 400px;
+            border-collapse: collapse;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+        }
+
+        tr.linha {
+            background-color: gray;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        td.dado {
+            background-color: yellow;
         }
     </style>
 </head>
@@ -30,7 +43,7 @@
             TABLE DATA = dado de tabela
       -->
     <table>
-        <tr> <!--Primeira linha -->
+        <tr class="linha"> <!--Primeira linha -->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
@@ -49,7 +62,7 @@
         </tr>
 
         <tr>
-            <td>A4</td>
+            <td class="dado">A4</td>
             <td>B4</td>
             <td>C4</td>
         </tr>

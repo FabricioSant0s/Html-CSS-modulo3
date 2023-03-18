@@ -19,6 +19,8 @@
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: left;  /* alinhamento horizontal left center right */
+            vertical-align: bottom; /* alinhamento vertical top middle bottom */
         }
 
         tr.linha {
@@ -31,6 +33,12 @@
 
         td.dado {
             background-color: yellow;
+        }
+
+        .numero {
+            text-align: right;
+            vertical-align: top;
+
         }
     </style>
 </head>
@@ -58,8 +66,8 @@
 
         <tr>
             <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
+            <td class="numero">B3</td>
+            <td class="numero">C3</td>
         </tr>
 
         <tr>

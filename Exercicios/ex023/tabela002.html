@@ -18,17 +18,12 @@
             border: 1px solid black;
             padding: 10px;
         }
-
-        tfoot {
-            background-color: rgb(73, 71, 71);
-            color: white;
-        }
-        thead {
-            background-color: rgb(73, 71, 71);
+        
+        tfoot, thead {
+            background-color: rgb(51, 50, 50);
             color: white;
         }
         
-
         td.num {
             text-align: right;
         }
@@ -36,7 +31,7 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: grey;
+            background-color: rgb(182, 180, 180);
         }
     </style>
 </head>
@@ -52,14 +47,14 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <caption>População das Unidades Federativas</caption>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
-
         </thead>
+
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -173,7 +168,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
 
